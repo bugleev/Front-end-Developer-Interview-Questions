@@ -1,4 +1,4 @@
-# JS Questions:
+# JS Questions and Answers:
 
 * Explain event delegation
 * Explain how `this` works in JavaScript
