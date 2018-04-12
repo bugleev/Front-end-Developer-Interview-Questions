@@ -4,7 +4,7 @@
   > DOM event delegation is a mechanism of responding to ui-events via a single common parent rather than each child, through the magic of event "bubbling" (aka event propagation).
   
 * Explain how `this` works in JavaScript
-  >  If a function is called on an object, such as in obj.myMethod() or the equivalent obj[myMethod](), then "this" is set to the object (obj in the example). In most other cases, "this" is set to the global object (calling inside eval() or with the new keyword are special cases).
+  >  If a function is called on an object, such as in `obj.myMethod()` or the equivalent `obj[myMethod]()`, then "this" is set to the object (obj in the example). In most other cases, "this" is set to the global object (calling inside eval() or with the new keyword are special cases).
   
 * Explain how prototypal inheritance works
   > Every object in Javascript has its prototype. So, the core idea of Prototypal Inheritance is that an object can point to another object's prototype and inherit all its properties. The main purpose is to allow multiple instances of an object to share common properties, hence, the Singleton Pattern.
